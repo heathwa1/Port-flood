@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 1em;
+  background-color: AliceBlue;
+}
+
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 30px auto;
+}
+h1 {
+  font-size: 3.5em;
+  letter-spacing: 0.07em;
+  font-family: serif;
+  font-weight: bold;
+  margin: 0 0 0.2em 0;
+}
+h2 {
+  font-size: 2em;
+  font-family: serif;
+  margin-top: 15px;
+  font-stretch: semi-expanded;
+  font-weight: bolder;
+}
+h3 {
+  font-family: serif;
+  font-size: 1.25em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.lower {
+  margin-top: 20px;
+}
+h4 {
+  font-style: italic;
+  font-size: .7em
+}
+p {
+  line-height: 2;
+}
+.intro {
+  font-family: sans-serif;
+  text-align: center;
+  width: 95%;
+  font-size: 1.1em;
+  margin: 50px auto 75px auto;
+  /* padding-bottom: 20px; */
+}
+#port {
+  width: 100%;
+  height:auto;
+  padding-right: 5px;
+}
+#noaa {
+  padding-top: 10px;
+  width:100%;
+  height:auto;
+  margin-top: 50px;
+  /* margin-top: 50px; */
+}
+.tidal {
+  float:left;
+  width: 45%;
+  margin: auto;
+  padding: 0 15px 0 15px;
+}
+.tidalImg {
+  float: left;
+  width: 50%;
+  padding:0 15px 0 15px;
+}
+
+.column.Left  {
+  float: left;
+  width: 50%;
+}
+.column.Right {
+  float: right;
+  width: 50%;
+  padding: 0 15px 0 15px;
+  /* margin: 15px 50px 15px 5px; */
+}
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.data {
+  width: 90%;
+  margin: auto;
+}
+.color {
+  background-color: Lavender;
+}
+.chart {
+  width: 100%;
+  height: auto;
+}
+a {
+  margin-top: 50px;
+  display: block;
+  color: #3e95cd;
+}
+footer {
+  font-family: sans-serif;
+  font-size: .7em;
+  color: CadetBlue;
+
+}
+canvas {
+  padding: 10px 0 0 5px;
+  /* margin-bottom: 20px; */
+  /* font-size: 1.1em; */
+
+}
